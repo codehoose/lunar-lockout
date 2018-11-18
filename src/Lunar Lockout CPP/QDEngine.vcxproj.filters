@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="QDEngine">
+      <UniqueIdentifier>{782b0885-60dd-4ae5-aa7f-efc04a6a89a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QDEngine\Source Files">
+      <UniqueIdentifier>{7afd8aec-2274-49d7-8abf-512ed6611ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QDEngine\Source Files\The Board">
+      <UniqueIdentifier>{f2631cb9-1be0-4dda-93d8-6b3bbdb28b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QDEngine\Header Files">
+      <UniqueIdentifier>{f441f244-3f29-47cc-9d61-8983c07aa844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScripts">
+      <UniqueIdentifier>{e44754eb-a8a6-444f-b0e9-6c87dae91d4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QDEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMenu.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDElement.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs.cpp">
+      <Filter>QDEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>QDEngine\Source Files\The Board</Filter>
+    </ClCompile>
+    <ClCompile Include="LunarFile.cpp">
+      <Filter>QDEngine\Source Files\The Board</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QDEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMenu.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDElement.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LunarFile.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs.h">
+      <Filter>QDEngine\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="init.js">
+      <Filter>GameScripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
