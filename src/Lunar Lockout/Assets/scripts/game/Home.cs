@@ -33,7 +33,8 @@ public class Home : MonoBehaviour
 
         yield return new WaitForSeconds(2); // TODO: WAIT?!?!
 
-        MessageQueue.Instance.SendMessage(EnterSpaceShipMessage.Instance);
+        // TODO: THIS IS ALWAYS HITTING?!
+        //MessageQueue.Instance.SendMessage(EnterSpaceShipMessage.Instance);
 
         var target = t.position + Vector3.down * 3;
         var start = t.position;
